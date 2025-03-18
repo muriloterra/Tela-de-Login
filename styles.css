@@ -61,6 +61,12 @@ body {
   display: flex;
   justify-content: flex-end;
   cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.reset:hover {
+  text-decoration: underline;
 }
 
 .entrar {
@@ -89,4 +95,70 @@ body {
 .entrar__btn:hover {
   background-color: rgba(255, 255, 255, 0);
   filter: opacity(50%);
+}
+
+.cadastro {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cadastro-btn {
+  text-decoration: none;
+  color: blue;
+}
+
+.cadastro-btn:hover {
+  text-decoration: underline;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.cadastro-conta {
+  display: flex;
+  font-size: 15px;
+  background: none;
+  border-style: none;
+  border-bottom: 1px solid;
+  margin-top: 5px;
+  outline: none;
+  width: 100%;
+}
+
+.titulo-conta {
+  margin-bottom: 30px;
+}
+
+.cadastrar {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.avancar {
+  display: flex;
+  justify-content: center;
+}
+
+.botao {
+  background-color: rgb(34, 108, 245);
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 30px;
+  border-style: none;
+  text-decoration: none;
+  color: black;
+  transition: 0.1s;
+  margin-top: 30px;
+}
+.botao:hover {
+  opacity: 50%;
+}
+
+.salvar {
+  display: flex;
+  justify-content: center;
 }
